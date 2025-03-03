@@ -20,5 +20,6 @@ while True:
 
 if user_age >= 25:
     print(f"Wow! {user_age} is pretty old!")
-else:
-    print(f"{user_age} is not old!")
+
+if user_age >= 13 and user_age <= 19:
+    print("You are a teenager!")

@@ -18,7 +18,7 @@ while True:
         print("Please enter only numbers!")
         continue
 
-if user_age >= 55:
+if user_age >= 25:
     print(f"Wow! {user_age} is pretty old!")
 else:
-    print(f"{user_age} is pretty young!")
+    print(f"{user_age} is not old!")

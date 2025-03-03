@@ -1,5 +1,5 @@
-print("Hello, world!")
-print("My favorite color is blue.")
+# print("Hello, world!")
+# print("My favorite color is blue.")
 
 user_name = input(
     "What is your name? "

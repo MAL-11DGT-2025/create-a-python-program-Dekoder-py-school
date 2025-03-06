@@ -7,3 +7,7 @@ colors = ["red", "green", "blue", "purple", "yellow"]
 # print(colors[-3])
 
 # print(len(colors))
+
+for i in colors:
+    if i == "yellow":
+        print(i)

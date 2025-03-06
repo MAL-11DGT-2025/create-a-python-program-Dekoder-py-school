@@ -6,4 +6,4 @@ colors = ["red", "green", "blue", "purple", "yellow"]
 # print(colors[-1])
 # print(colors[-3])
 
-print(len(colors))
+# print(len(colors))

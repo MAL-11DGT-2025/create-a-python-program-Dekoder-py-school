@@ -10,4 +10,4 @@ colors = ["red", "green", "blue", "purple", "yellow"]
 
 for i in colors:
     if i == "yellow":
-        print(i)
+        print("There is yellow!")

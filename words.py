@@ -1,6 +1,6 @@
 season = input("What's your favorite season: ")
 
-season_list = ["summer", "winter", "autumn", "spring"]
+season_list = ["summer", "winter", "autumn", "spring", "fall"]
 
 if season.lower().strip() in season_list:
     print("That is a valid season!")

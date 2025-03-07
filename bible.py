@@ -5,12 +5,13 @@ c) Numbers
 d) Leviticus
 >> """).lower().strip()
 
-options = ["a", "genesis", "a) genesis", "b", "exodus", "b) exodus", "c", "numbers", "c) numbers", "d", "leviticus", "d) leviticus"]
+correct_options = ["a", "genesis", "a) genesis", "a)"]
+incorrect_options = ["b", "exodus", "b) exodus", "b)", "c", "numbers", "c) numbers", "c)", "d", "leviticus", "d) leviticus", "d)"]
 
-if book in options:
-    if book == options[0] or book == options[1] or book == options[2]:
-        print("Correct!")
-    else:
-        print("Incorrect.")
+
+if book in correct_options:
+    print("Correct!")
+elif book in incorrect_options:
+    print("Incorrect.")
 else:
     print("Invalid option.")

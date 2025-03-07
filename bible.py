@@ -1,14 +1,9 @@
-book = (
-    input("""What is the first book of the bible? 
+book = input("""What is the first book of the bible? 
 a) Genesis
 b) Exodus
 c) Numbers
 d) Leviticus
->> """)
-    .lower()
-    .strip()
-)
-
+>> """).lower().strip()
 
 options = ["a", "genesis", "b", "exodus", "c", "numbers", "d", "leviticus"]
 

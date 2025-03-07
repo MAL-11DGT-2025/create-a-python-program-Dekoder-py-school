@@ -8,7 +8,7 @@ d) Leviticus
 options = ["a", "genesis", "a) genesis", "b", "exodus", "b) exodus", "c", "numbers", "c) numbers", "d", "leviticus", "d) leviticus"]
 
 if book in options:
-    if book == "a" or book == "genesis":
+    if book == options[0] or book == options[1] or book == options[2]:
         print("Correct!")
     else:
         print("Incorrect.")

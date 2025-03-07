@@ -5,7 +5,7 @@ c) Numbers
 d) Leviticus
 >> """).lower().strip()
 
-options = ["a", "genesis", "b", "exodus", "c", "numbers", "d", "leviticus"]
+options = ["a", "genesis", "a) genesis", "b", "exodus", "b) exodus", "c", "numbers", "c) numbers", "d", "leviticus", "d) leviticus"]
 
 if book in options:
     if book == "a" or book == "genesis":

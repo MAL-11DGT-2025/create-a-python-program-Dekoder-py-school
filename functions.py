@@ -6,7 +6,7 @@ def greeting() -> None:
     print("Hello!")
 
 
-def greeting_with_name(name) -> None:
+def personal_greeting(name) -> None:
     """Prints a personalized greeting for the user"""
     print(f"Hey, {name}!")
 
@@ -14,4 +14,4 @@ def greeting_with_name(name) -> None:
 user_name: str = input("What is your name: ").title()
 
 # greeting()
-greeting_with_name(user_name)
+personal_greeting(user_name)

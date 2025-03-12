@@ -25,9 +25,9 @@ def subtract(a: int, b: int) -> None:
 
 # greeting()
 # personal_greeting(user_name)
-add(5, 10)
-add(1, 2)
-add(2, 3)
+# add(5, 10)
+# add(1, 2)
+# add(2, 3)
 subtract(10, 12)
 subtract(5, 3)
 subtract(12, 12)

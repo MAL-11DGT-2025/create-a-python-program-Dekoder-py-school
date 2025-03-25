@@ -25,3 +25,5 @@ colours.append("green")
 colours.append("green")
 print(colours)
 print(colours.count("green"))  # prints how many items are green
+colours.sort()  # sort the list alphabetically
+print(colours)

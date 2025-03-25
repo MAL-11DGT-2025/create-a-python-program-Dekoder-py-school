@@ -1,4 +1,4 @@
-colors = ["red", "green", "blue", "purple", "yellow"]
+# colors = ["red", "green", "blue", "purple", "yellow"]
 
 # for i in colors:
 #     print(i)
@@ -8,6 +8,14 @@ colors = ["red", "green", "blue", "purple", "yellow"]
 
 # print(len(colors))
 
-for i in colors:
-    if i == "yellow":
-        print("There is yellow!")
+# for i in colors:
+#     if i == "yellow":
+#         print("There is yellow!")
+
+colours = []
+
+print(colours)
+colours.append("green")
+print(colours)
+colours.append("blue")
+print(colours)

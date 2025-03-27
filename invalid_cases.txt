@@ -1,0 +1,14 @@
+text instead of number
+number too low (i.e. negative)
+number too high
+
+EXAMPLE:
+Age validator:
+input: "eighteen"
+output: "Please enter a number instead"
+
+input: -12
+output: "Age cannot be negative"
+
+input: 200
+output: "Enter a valid age, 200 too high."

@@ -15,14 +15,19 @@
 colours = []
 
 print(colours)
+
 colours.append("green")  # adds green to list
 print(colours)
+
 colours.append("blue")  # adds blue to list
 print(colours)
+
 print(colours[1])  # prints the second item in the list
-print(len(colours))  # prints the number of items in the list
+print(len(colours))
+# prints the number of items in the list
 colours.append("green")
 colours.append("green")
+
 print(colours)
 print(colours.count("green"))  # prints how many items are green
 colours.sort()  # sort the list alphabetically
